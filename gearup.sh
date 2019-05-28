@@ -2,9 +2,6 @@
 count=1
 while [[ $count -ge 0 ]]
 do
-rm 2897*
-rm livestatus71
-sleep 30s
 clear
 sleep 2s
 bash script.sh
